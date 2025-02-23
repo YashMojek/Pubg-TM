@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('../fonts/Montserrat-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #242333;
+    color: white;
+}
+
+.top-nav {
+    background-color: #242333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav button {
+    border: none;
+    background: none;
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+}
+
+.top-nav p.app-name {
+    font-family: 'Montserrat-Black';
+    font-size: large;
+}
+
+.greating {
+    background-color: #242333;
+    padding: 2rem;
+    border-radius: 0px 0px 50px 50px;
+    position: relative;
+}
+
+.greating p.welcome {
+    font-family: 'Montserrat-Regular';
+}
+
+.greating p.lets-start {
+    font-family:'Montserrat-Medium';
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: -10px;
+}
+
+.bottom-nav {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #242333;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-nav .bottom-btn {
+    border: none;
+    background: none;
+    color: #49454f;
+    cursor: pointer;
+}
+
+.bottom-nav .bottom-btn svg {
+    margin-top: 7px;
+}
+
+.bottom-nav .bottom-btn p {
+    margin-top: 0;
+    font-family: 'Montserrat-Medium';
+    font-weight: 700;
+}
+
+.bottom-nav .active {
+    color: #724ef8;
+}
+
+.display {
+    background-color: #1a1b1f;
+    padding: 70px 30px 30px 30px;
+    margin-top: -50px;
+    border-radius: 0px 0px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    max-height: 400px;
+}
+
+.display .tab-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display .tab-name p {
+    font-family: 'Montserrat-Medium';
+    font-size: 1.2rem;
+}
+
+.display .tab-name button {
+    border: none;
+    background: none;
+    transition: all 0.5s ease-in-out;
+}
+
+p.info-text {
+    font-family: 'Montserrat-Medium';
+    margin-top: -30px;
+    opacity: 0%;
+    transition: all 0.5s ease-in;
+}
+
+.lesson {
+    background-color: #242333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.first {
+    margin-top: -5px;
+}
+
+.lesson .lesson-img-and-name {
+    display: flex;
+    align-items: center;
+}
+
+.lesson .lesson-img-and-name img {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.lesson .lesson-img-and-name p.lesson-name {
+    font-family: 'Montserrat-Medium';
+    margin-left: 10px;
+}
